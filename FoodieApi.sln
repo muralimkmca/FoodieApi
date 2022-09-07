@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodieApi", "FoodieApi.csproj", "{D102848C-7A09-451E-906A-32A2BB50D325}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodieApiTest", "..\FoodieApiTest\FoodieApiTest.csproj", "{A746453E-D61F-464E-95C2-672990A1241F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D102848C-7A09-451E-906A-32A2BB50D325}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D102848C-7A09-451E-906A-32A2BB50D325}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D102848C-7A09-451E-906A-32A2BB50D325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A746453E-D61F-464E-95C2-672990A1241F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A746453E-D61F-464E-95C2-672990A1241F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A746453E-D61F-464E-95C2-672990A1241F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A746453E-D61F-464E-95C2-672990A1241F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

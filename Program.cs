@@ -13,7 +13,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.Configure<DBSettings>(
     builder.Configuration.GetSection("FoodDatabase"));
 
-builder.Services.AddSingleton<FoodServices>();
+builder.Services.AddScoped<IFoodServices,FoodServices>();
 
 var app = builder.Build();
 

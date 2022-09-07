@@ -4,7 +4,7 @@ using MongoDB.Driver;
 
 namespace FoodieApi.Services
 {
-    public class FoodServices
+    public class FoodServices : IFoodServices
     {
         private readonly IMongoCollection<Foods> foodcollection;
         public FoodServices(IOptions<DBSettings> dbSettings)
@@ -16,7 +16,6 @@ namespace FoodieApi.Services
 
         //public async Task<List<Foods>> GetAsync()
         //    => await foodcollection.Find(_ => true).ToListAsync();
-
 
         public async Task<List<Foods>> GettheFood()
         {

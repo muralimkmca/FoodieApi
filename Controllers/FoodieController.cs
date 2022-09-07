@@ -9,8 +9,9 @@ namespace FoodieApi.Controllers
     [ApiController]
     public class FoodieController : ControllerBase
     {
-        private readonly FoodServices _foodservices;
-        public FoodieController(FoodServices foodServices)
+        private readonly IFoodServices _foodservices;
+        
+        public FoodieController(IFoodServices foodServices)
         {
             this._foodservices = foodServices;
         }
